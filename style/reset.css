@@ -3,6 +3,10 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+}
 img {
   display: block;
   max-width: 100%;
