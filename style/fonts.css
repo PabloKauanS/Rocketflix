@@ -1,0 +1,41 @@
+.font-1 {
+  color: var(--title);
+  font-family: Poppins;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.font-2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.font-3 {
+  color: var(--title);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.font-4 {
+  color: var(--title);
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.font-5 {
+  color: var(--title);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
