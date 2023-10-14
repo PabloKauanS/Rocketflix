@@ -17,12 +17,10 @@
   padding: 0.688rem 0.813rem;
   border-radius: 0.313rem;
   border: none;
+  margin-top: 4rem;
   background: var(--bg-button);
   cursor: pointer;
   margin-bottom: 1.625rem;
-}
-.content-button.mg-t {
-  margin-top: 4rem;
 }
 .content-detail {
   padding-top: 1.875rem;

@@ -1,0 +1,30 @@
+@media (max-width: 750px) {
+  html {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 650px) {
+  html {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 0.688rem;
+    text-align: center;
+  }
+  .bg-content {
+    padding: 0.625rem;
+  }
+  .content {
+    padding-top: 0;
+  }
+  .movie {
+    flex-direction: column;
+    padding-top: 1.25rem;
+    row-gap: 0.925rem;
+  }
+  .content-button {
+    margin-top: 0.625rem;
+  }
+}
