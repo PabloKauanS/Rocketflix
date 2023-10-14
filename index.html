@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rocketflix</title>
-  <link rel="shortcut icon" href="/icons/favico/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="icons/favico/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="import.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,15 +15,19 @@
 <body>
   <div class="bg-content">
     <main class="content">
-      <img src="/icons/shuffle.svg" alt="Logo da Rocketflix" width="87.24" height="62.93">
+      <img src="icons/shuffle.svg" alt="Logo da Rocketflix" width="87.24" height="62.93">
       <h1 class="font-1">Não sabe o que assistir?</h1>
-      <button class="button font-2">
-        <img src="/icons/favico/favicon-32x32.png" alt="" height="25.29" width="35.56">Encontrar filme
+      <article class="movie" data-movie>
+      </article>
+      <button data-btn class="content-button font-2 mg-t">
+        <img src="icons/favico/favicon-32x32.png" alt="" height="25.29" width="35.56">Encontrar filme
       </button>
-      <p class="font-3">Clique em "Encontrar filme" que traremos informações<br>
-        de algum filme para você assistir hoje.</p>
+      <p class="font-3 content-detail">Clique em "Encontrar filme" que traremos informações<br>
+        de algum filme para você assistir hoje.
+      </p>
     </main>
   </div>
+  <script type="module" src="import.js"></script>
 </body>
 
 </html>

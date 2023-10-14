@@ -1,0 +1,14 @@
+.movie {
+  display: flex;
+  column-gap: 2.125rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  max-width: 43.125rem;
+}
+.movie-title {
+  padding-bottom: 1rem;
+}
+.movie-image {
+  cursor: pointer;
+}
